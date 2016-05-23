@@ -1,0 +1,11 @@
+
+---
+  - name: Easy Dev Configuration for Ubuntu with Mongodb
+    hosts: all
+    sudo: True
+    #or
+    #tasks:
+    #or
+    roles:
+      #Install and configure mongodb
+      - role: Stouts.mongodb
